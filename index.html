@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script type="module" src="./src/js/index.js" defer></script>
+    <title>Epic Integration</title>
+  </head>
+  <body>
+    <h1>Code Converter</h1>
+    <form name="noteConverter">
+      <div>
+        <label for="noteTextArea">Notes</label>
+        <textarea id="noteTextArea"></textarea>
+      </div>
+      <div>
+        <label for="codeTextArea">Codes</label>
+        <textarea id="codeTextArea" readonly></textarea>
+      </div>
+    </form>
+    <details>
+      <summary>How To</summary>
+      Paste notes into the "Notes" field, <em>or</em> type the notes in and click off of the field. The notes will then automatically populate in the codes field.
+    </details>
+  </body>
+</html>
